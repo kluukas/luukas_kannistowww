@@ -1,6 +1,39 @@
 header{
     text-align: center;
-    height: 100px;
-    background-color: yellow;
+    height: 140px;
+    background-color: rgb(189, 189, 189);
     font-size: 100px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+
+  }
+
+.box {
+    float: left;
+    width: 200px;
+    margin: 20px;
+    background-color: rgb(161, 161, 161);
+    min-height: 280px;
+    font-size: 18px;  
+}
+
+.flexcolumn{
+    display: flex;
+    background-color: rgb(161, 161, 161);
+    flex-direction: column;
+    font-size: 20px;
+    max-width: 200px;
+    }
+
+footer
+{
+    text-align: center;
+    height: 80px;
+    background-color: rgb(10, 26, 243);
+    font-size: 30px;
+    float: bottom;
 }
