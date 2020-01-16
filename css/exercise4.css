@@ -37,3 +37,6 @@ footer
     font-size: 30px;
     float: bottom;
 }
+body{
+    background-color: rgb(211, 211, 211);
+}

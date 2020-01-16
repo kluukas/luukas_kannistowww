@@ -21,12 +21,12 @@ flex-direction: column;
 }
 
 .box{
-    float: left;
+  float: left;
     width: 200px;
     margin: 20px;
     background-color: green;
     min-height: 260px;
-    font-size: 30px;
+    font-size: 30px;  
 }
 header, footer{
 text-align: center;
