@@ -21,7 +21,7 @@ ul {
     font-size: 18px;  
 }
 
-.flexcolumn{
+.flexbox{
     display: flex;
     background-color: rgb(161, 161, 161);
     flex-direction: column;
@@ -33,10 +33,21 @@ footer
 {
     text-align: center;
     height: 80px;
-    background-color: rgb(10, 26, 243);
+    background-color: rgb(66, 66, 66);
     font-size: 30px;
     float: bottom;
 }
+article{
+    text-align: left;
+    
+}
+
 body{
     background-color: rgb(211, 211, 211);
+}
+.flexContainer {
+    display: flex;
+    background-color: rgb(175, 87, 87);
+    align-content: space-between;
+    flex-wrap: wrap;
 }
